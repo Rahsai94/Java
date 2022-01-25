@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d35f2293-461f-48e9-89a2-104fc1d1ca67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AirBooking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/293Seats.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/387Seats.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/AirBooking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/AirlineBooking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/extensionPuzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/flight8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/junit-4.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/CrewMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/GeneratePassengers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/Q1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/Q2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/sudoku/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/sudoku/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AirBooking/src/sudoku/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoddingChallenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoddingChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/PostCodeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Postcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PostcodeValidateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/Java_Coding_Challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/JavaForIndustry_LabAssignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment 2/MidTermAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/MidTermAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment_/MidTermAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Polymorphism/Polymorphism.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/Ampli/Ampli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/Amplitude/Amplitude.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/LabAssignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2Template/LabAssignment2Template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/LabExce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExercises2/LabExercises2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/OOPCar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment/MidTermAssignment/MidTermAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment/Richard/MidTermAssignment/MidTermAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/Lab1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/LabAssignment2/.idea/LabAssignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Mid-termTemplate/Mid-termTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/MidTermAssignment/MidTermAssignment.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="CoddingChallenge" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="23Pfwoz538UmF08kGEY8aoXMqgz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CoddingChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoddingChallenge" />
+      <module name="CoddingChallenge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CoddingChallenge" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d35f2293-461f-48e9-89a2-104fc1d1ca67" name="Changes" comment="" />
+      <created>1641640883566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641640883566</updated>
+      <workItem from="1641640884978" duration="4451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60986110-d5cc-47dd-9130-79b091f629b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/ManualException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Herbert_Schildt_-_Java_The_Complete_Reference_Eleventh_Edition_11_2019.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/Java_Coding_Challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/src/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Coding_Challenge/src/Q3Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/JavaForIndustry_LabAssignment1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/out/production/JavaForIndustry_LabAssignment1/Q1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/out/production/JavaForIndustry_LabAssignment1/Q2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/out/production/JavaForIndustry_LabAssignment1/Q3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/out/production/JavaForIndustry_LabAssignment1/Q4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/out/production/JavaForIndustry_LabAssignment1/Tax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/src/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/src/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/src/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/src/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 1/JavaForIndustry_LabAssignment1/src/Tax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/MidTermAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/src/FileReadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/src/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTermAssignment/src/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Overview.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Polymorphism.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/93BXK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/Ampli/Ampli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/Ampli/src/CFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/Amplitude/Amplitude.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/LabAssignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/out/production/LabAssignment2/Invoice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/out/production/LabAssignment2/InvoiceItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/out/production/LabAssignment2/Password.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/out/production/LabAssignment2/Q1Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/out/production/LabAssignment2/Q3Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/src/Ampplitude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/src/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/src/InvoiceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/src/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/src/Q1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2/src/Q3Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabAssignment2Template/LabAssignment2Template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/LabExce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExce/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/LabExercises2/LabExercises2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/OOPCar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/out/production/OOPCar/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/out/production/OOPCar/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/OOPCar/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/e0Wvt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Algorithms/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/out/production/HelloWorld/com/company/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/out/production/HelloWorld/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/src/com/company/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/HelloWorld/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/Lab1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/out/production/Lab1/com/company/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/out/production/Lab1/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Lab1/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/LabAssignment2/.idea/LabAssignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/LabAssignment2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/Mid-termTemplate/Mid-termTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/MidTermAssignment/MidTermAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/MidTermAssignment/src/FileReadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/MidTermAssignment/src/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/MidTermAssignment/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programs/MidTermAssignment/src/StudentMain.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="223cgjideX0Pg0YSg21WUdnDYxD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism" />
+      <module name="Polymorphism" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Polymorphism" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60986110-d5cc-47dd-9130-79b091f629b8" name="Changes" comment="" />
+      <created>1639069826561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639069826561</updated>
+      <workItem from="1639069829062" duration="802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
