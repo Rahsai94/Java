@@ -27,5 +27,7 @@ public class Q3Main {
         System.out.format("%10s%10s%9s%22s", "9", "2", "2", Password.validate(Password.generate(9,2,2))+"\n");
         System.out.format("%10s%10s%9s%22s", "18", "5", "6", Password.validate(Password.generate(18,5,6))+"\n");
 
+
+
     }
 }
