@@ -7,7 +7,7 @@ public class CollectionExample {
     // Set of the
     ArrayList<HashSet> names = new ArrayList<>();
 
-    
+
 
     public TreeSet<String> mergeCatsName(){
         TreeSet<String> cats = new TreeSet<String>(names.get(0));
