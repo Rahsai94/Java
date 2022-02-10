@@ -3,11 +3,11 @@ public class CardMain {
         Deck d = new Deck(true);
         System.out.println(d);
 
-//        Hand h = new Hand();
-//        for(int i = 0; i<5; i++) {
-//            h.addCard(d.deal());
-//        }
-//        System.out.println(h);
-//        System.out.println(h.getHandRank());
+        Hand h = new Hand();
+        for(int i = 0; i<5; i++) {
+            h.addCard(d.deal());
+        }
+        System.out.println(h);
+        System.out.println(h.getHandRank());
     }
 }

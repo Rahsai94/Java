@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.ArrayList;

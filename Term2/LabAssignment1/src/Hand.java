@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Hand {
     private ArrayList<Card> hand = new ArrayList<>();
@@ -19,7 +20,10 @@ public class Hand {
         hand.sort(new SortCards());
 
         //high card (None of the other hands match, the highest value of the card)
-        s
+        for (Card card: hand) {
+
+            System.out.println(card.toString());
+        }
         //one pair ( a pair of cards with the same value e.g. 7D, 7H, 4S, 6H, 8H)
 
         //two pair (2 pairs of matched values e.g. 7D, 7H, 4S, 4C, 2D)
