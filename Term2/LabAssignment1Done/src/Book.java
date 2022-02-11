@@ -1,11 +1,4 @@
-
-/* 1. Complete the Book class. It should have the following private properties.
-Your class should include a constructor with arguments for each of these properties.
-Also create getters and setters for each property */
 public class Book {
-
-    // Private Book Instance Variables
-
     private String title;
     private String author;
     private long isbn;
@@ -14,9 +7,7 @@ public class Book {
     private int CopiesOnLoan;
 
     //1, complete this class with a constructor that has arguments for all the properties
-    //and, getters and setters for each of them
 
-    //Parameter Constructor
     public Book(String title, String author, long isbn, int pages, int copiesInCollection, int copiesOnLoan) {
         this.title = title;
         this.author = author;
@@ -27,7 +18,7 @@ public class Book {
     }
 
 
-    //Getter and Setter Methods
+    //and, getters and setters for each of them
 
     public String getTitle() {
         return title;
@@ -75,16 +66,5 @@ public class Book {
 
     public void setCopiesOnLoan(int copiesOnLoan) {
         CopiesOnLoan = copiesOnLoan;
-    }
-
-
-    @Override
-    public String toString() {
-        return "\nBook = Title: '" + title +
-                "'  Author: '" + author +
-                "'  ISBN: '" + isbn +
-                "'  Pages: '" + pages +
-                "'  CopiesInCollection: '" + copiesInCollection +
-                "'  CopiesOnLoan: '" + CopiesOnLoan;
     }
 }

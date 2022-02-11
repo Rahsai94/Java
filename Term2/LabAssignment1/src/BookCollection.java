@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashSet;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -12,20 +13,17 @@ public class BookCollection {
     //When complete books should have 100 items. Make sure you don't include the header row!
     public BookCollection(String path) {
             try{
-                File dataFile = new File(path);
-                if(dataFile.length() != 0){
-                    Scanner scanner = new Scanner(dataFile);
+                    Scanner scanner = new Scanner(new File(path));
                     String[] parameters = scanner.nextLine().trim().split(",");
                     while(scanner.hasNextLine()){
                         String[] booksInfo = scanner.nextLine().trim().split(",");
                         books.add(new Book(booksInfo[0], booksInfo[1], Long.parseLong(booksInfo[2]), Integer.parseInt(booksInfo[3]), Integer.parseInt(booksInfo[4]), Integer.parseInt(booksInfo[5])));
                     }
-                } else {
-                    System.out.println("Given File is Empty");
-                }
 
             }catch (FileNotFoundException ignored){
-                   System.out.println("File is not found");
+                System.out.println("\""+path+"\" File is not found");
+            }catch (NoSuchElementException fileEmpty){
+                System.out.println("\""+path+"\" Given File is Empty");
             }
 
     }
@@ -47,14 +45,14 @@ public class BookCollection {
 
     //4, return an arrayList of books with more than 750 pages
     public ArrayList<Book> getLongBooks(){
-        ArrayList<Book> books = new ArrayList<>();
+        ArrayList<Book> longBooks = new ArrayList<>();
 
         for (Book book: books) {
             if(book.getPages() > 750){
-                books.add(book);
+                longBooks.add(book);
             }
         }
-        return  books;
+        return  longBooks;
     }
 
     //5, return the book if the given title is in the list.

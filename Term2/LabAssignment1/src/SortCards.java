@@ -1,3 +1,8 @@
+/* Complete the comparator method compare so that the card objects are compared as follows:
+• Where o1 has a higher value property than o2 return 1.
+• Where o1 has a lower value property than o2 return -1;
+• Where the value property of both o1 and o2 is the same return 0.  */
+
 import java.util.Comparator;
 
 public class SortCards implements Comparator<Card> {

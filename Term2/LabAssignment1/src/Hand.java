@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Hand {
     private ArrayList<Card> hand = new ArrayList<>();
@@ -19,29 +18,115 @@ public class Hand {
         //sort the hand
         hand.sort(new SortCards());
 
-        //high card (None of the other hands match, the highest value of the card)
-        for (Card card: hand) {
+        int[] suits =  new int[4];
+        int[] values = new int[14];
 
-            System.out.println(card.toString());
+        // Local Variables for card status
+        boolean triple = false, flush = false, fourOfKind = false, series = true;
+        int pair = 0;
+        int seriesValue = hand.get(0).getNumericValue()-1;
+
+
+        //Count Suits
+        for (int i = 0; i < hand.size(); i++){
+
+            //get the repeated values of cards
+            values[hand.get(i).getNumericValue()-1]++;
+
+            //Check Series value
+            seriesValue++;
+
+            switch (hand.get(i).getSuit()){
+                case "Clubs":
+                    suits[0]++;
+                    break;
+                case "Hearts" :
+                    suits[1]++;
+                    break;
+                case "Diamonds":
+                    suits[2]++;
+                    break;
+                case "Spades":
+                    suits[3]++;
+                    break;
+            }
+
+            //Check Series of Cards in hand
+            if(seriesValue != hand.get(i).getNumericValue()){
+                series = false;
+                if(i == 4  && hand.get(i-1).getNumericValue() == 5 && hand.get(4).getNumericValue() == 14){
+                    series = true;
+                }
+            }
+
         }
-        //one pair ( a pair of cards with the same value e.g. 7D, 7H, 4S, 6H, 8H)
 
-        //two pair (2 pairs of matched values e.g. 7D, 7H, 4S, 4C, 2D)
+        //Check flush suit
+        for (int i: suits) {
+            if(i == 5){
+                flush = true;
+            }
+        }
 
-        //3 of a kind (3 cards with the same value and two others e.g. 7D, 7H, 7C, 2H, KS)
+        //Check pair and triple card
+        for (int i: values) {
+            if(i == 3){
+                triple = true;
+            }
+            if(i == 2){
+                pair++;
+            }
+        }
 
-        //straight (A run of values in different suits e.g. 3H, 4D, 5H, 6C, 7S)
 
-        //flush (All cards are in the same suit e.g. 3H, 7H, 9H, JH, KH)
+        //royal flush (J,Q,K,A,10 all the same suit)
+        if((hand.get(0).getNumericValue() == 10) && flush){
+            return ranks[0];
+        }
 
-        //full house (3 of a kind and a pair e.g. 7S, 7H, 7D, 4C, 4H)
+        //straight flush (5 cards in a row all  same suit e.g. 3S, 4S, 5S, 6S, 7S)
+        if(flush && series){
+            return ranks[1];
+        }
 
         //4 of a kind (4 cards with the same value e.g. 9S, 9C, 9H, 9D, 7D)
+        for (int i: values) {
+            if(i == 4){
+                return ranks[2];
+            }
+        }
 
-        //straight flush (5 cards in a row all of the same suit e.g. 3S, 4S, 5S, 6S, 7S)
+        //full house (3 of a kind and a pair e.g. 7S, 7H, 7D, 4C, 4H)
+        if(triple && (pair == 1)){
+            return ranks[3];
+        }
 
-        //royal flush (J,Q,K,A,10 all of the same suit)
+        //flush (All cards are in the same suit e.g. 3H, 7H, 9H, JH, KH)
+        if(flush){
+            return ranks[4];
+        }
 
+        //straight (A run of values in different suits e.g. 3H, 4D, 5H, 6C, 7S)
+        if(series){
+            return ranks[5];
+        }
+
+        //3 of a kind (3 cards with the same value and two others e.g. 7D, 7H, 7C, 2H, KS)
+        if(triple){
+            return ranks[6];
+        }
+
+        //two pair (2 pairs of matched values e.g. 7D, 7H, 4S, 4C, 2D)
+        if(pair == 2){
+            return ranks[7];
+        }
+
+        //one pair ( a pair of cards with the same value e.g. 7D, 7H, 4S, 6H, 8H)
+        if(pair == 1){
+            return ranks[8];
+        }
+
+        //high card (None of the other hands match, the highest value of the card)
         return ranks[9];
     }
 
