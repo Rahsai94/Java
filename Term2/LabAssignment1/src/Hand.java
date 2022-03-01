@@ -54,9 +54,6 @@ public class Hand {
             //Check Series of Cards in hand
             if(seriesValue != hand.get(i).getNumericValue()){
                 series = false;
-                if(i == 4  && hand.get(i-1).getNumericValue() == 5 && hand.get(4).getNumericValue() == 14){
-                    series = true;
-                }
             }
 
         }

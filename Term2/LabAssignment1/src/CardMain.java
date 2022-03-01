@@ -83,13 +83,15 @@ public class CardMain {
         System.out.println("\u001B[31m******* Check Three of Kind Card ******\u001B[0m");
         Hand threeOfKind = new Hand();
         d = new Deck(true);
-        threeOfKind.addCard(d.dealSpecificCard("2", "Hearts"));
         threeOfKind.addCard(d.dealSpecificCard("2", "Diamonds"));
         threeOfKind.addCard(d.dealSpecificCard("2", "Spades"));
-        threeOfKind.addCard(d.dealSpecificCard("K", "Clubs"));
-        threeOfKind.addCard(d.dealSpecificCard("8","Hearts"));
+        threeOfKind.addCard(d.dealSpecificCard("3", "Hearts"));
+        threeOfKind.addCard(d.dealSpecificCard("5", "Spades"));
+        threeOfKind.addCard(d.dealSpecificCard("A","Clubs"));
 
         System.out.println(threeOfKind);
         System.out.println(threeOfKind.getHandRank());
+
+
     }
 }
