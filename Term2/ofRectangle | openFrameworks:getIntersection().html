@@ -1,0 +1,3046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<base href="https://openframeworks.cc/documentation/types/ofRectangle/">
+<meta name="viewport" content="width=device-width">
+<title>ofRectangle | openFrameworks</title>
+<meta content="#5670d4" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="../../../ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ko)" href="../../../ko/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" href="../../../zh_cn/rss.xml">
+<link rel="canonical" href="https://openframeworks.cc/documentation/types/ofRectangle/">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" href="../../../assets/css/github.min.css">
+<script src="../../../assets/js/highlight.min.js"></script><script>hljs.initHighlightingOnLoad();</script><link rel="stylesheet" type="text/css" href="../../../assets/css/style.css" media="all">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css">
+<link rel="search" type="application/opensearchdescription+xml" href="../../../opensearch.xml" title="openFrameworks">
+<link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico">
+<link rel="icon" href="../../../favicon.ico" type="image/x-icon">
+<script src="../../../assets/js/jquery.min.js"></script><script type="text/javascript" src="../../../assets/js/jquery.timeago.js"></script><meta name="google-site-verification" content="RiGtl9pFuFnUeEQ4MU1miiutTR5mmCPUi38YLCn-M-g">
+<!--script type="text/javascript" src="https://www.google.com/jsapi"></script--><!--script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-43083059-1', 'auto');
+        ga('send', 'pageview');
+    </script--><script src="../../../assets/js/jquery.columnizer.min.js"></script><script src="../../../assets/js/documentation.js"></script>
+</head>
+<body>
+    <div id="content">
+         <div id="head">
+
+		    <div id="head-left">
+			        <a href="../../../" class="nohover"><img src="../../../assets/images/of-logo.svg" border="0" alt="openFrameworks"></a>
+		    </div>
+
+             <div id="head-right">
+                 <ul>
+<li><a href="../../../about/">about</a></li>
+                                <li><a href="../../../download/">download</a></li>
+                                <li><a href="../../" class="active">documentation</a></li>
+                                <li><a href="../../../learning/">learning</a></li>
+                                <li><a href="../../../gallery/">gallery</a></li>
+                                <li><a href="../../../community/">community</a></li>
+                                <li><a href="../../../development/">development</a></li>
+
+                 </ul>
+<ul class="menu-externals">
+<li>
+<span class="external-dot"> &gt;</span> <a href="https://forum.openframeworks.cc" target="_blank">forum</a>
+</li>
+                                <li>
+<span class="external-dot"> &gt;</span> <a href="https://github.com/openframeworks" target="_blank">github</a>
+</li>
+                                <li>
+<span class="external-dot"> &gt;</span> <a href="http://ofxaddons.com" target="_blank">addons</a>
+</li>
+                                <li>
+<span class="external-dot"> &gt;</span> <a href="http://ofslack.herokuapp.com/" target="_blank">slack</a>
+</li>
+                                <li>
+<span class="external-dot"> &gt;</span> <a href="https://blog.openframeworks.cc/" target="_blank">blog</a>
+</li>
+                                    <li>
+<span class="internal-dot"> &gt;</span> <a href="../../../donations">donations</a>
+</li>
+                 </ul>
+<ul class="submenu">
+<li><a href="../../../ja//documentation/types/ofRectangle/" rel="alternate" hreflang="ja">日本語</a></li>
+                                <li><a href="../../../ko//documentation/types/ofRectangle/" rel="alternate" hreflang="ko">한국어</a></li>
+                                <li><a href="../../../zh_cn//documentation/types/ofRectangle/" rel="alternate" hreflang="zh_cn">简体中文</a></li>
+                 </ul>
+</div>
+         </div>
+
+         
+      <div id="body-wrap">
+          <div class="page-wide">
+              <div id="docstitle"><h1>ofRectangle</h1></div>
+              <div id="editdocs">
+                    <a href="https://github.com/openframeworks/ofSite/edit/master/documentation/types/ofRectangle.markdown" class="nohover"><img title="edit class on GitHub" src="../../../images/editclass.png?a=5"></a>
+              </div>
+        </div>
+
+
+        <div class="page-wide">
+		    <div class="submenucol-left">
+		     <!-- list of methods -->
+		     <p class="top_list_header">class methods</p>
+             <ul class="functionslist">
+<li>
+                         <a href="#show_ofRectangle" class="ofRectangle" data-lookup="ofRectangle">ofRectangle()</a>
+</li>
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_~ofRectangle" class="~ofRectangle" data-lookup="~ofRectangle">~ofRectangle()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_alignTo" class="alignTo" data-lookup="alignTo">alignTo()</a>
+</li>
+                     
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_alignToHorz" class="alignToHorz" data-lookup="alignToHorz">alignToHorz()</a>
+</li>
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_alignToVert" class="alignToVert" data-lookup="alignToVert">alignToVert()</a>
+</li>
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_getArea" class="getArea" data-lookup="getArea">getArea()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getAspectRatio" class="getAspectRatio" data-lookup="getAspectRatio">getAspectRatio()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getBottom" class="getBottom" data-lookup="getBottom">getBottom()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getBottomLeft" class="getBottomLeft" data-lookup="getBottomLeft">getBottomLeft()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getBottomRight" class="getBottomRight" data-lookup="getBottomRight">getBottomRight()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getCenter" class="getCenter" data-lookup="getCenter">getCenter()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getHeight" class="getHeight" data-lookup="getHeight">getHeight()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getHorzAnchor" class="getHorzAnchor" data-lookup="getHorzAnchor">getHorzAnchor()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getIntersection" class="getIntersection" data-lookup="getIntersection">getIntersection()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getLeft" class="getLeft" data-lookup="getLeft">getLeft()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getMax" class="getMax" data-lookup="getMax">getMax()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getMaxX" class="getMaxX" data-lookup="getMaxX">getMaxX()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getMaxY" class="getMaxY" data-lookup="getMaxY">getMaxY()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getMin" class="getMin" data-lookup="getMin">getMin()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getMinX" class="getMinX" data-lookup="getMinX">getMinX()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getMinY" class="getMinY" data-lookup="getMinY">getMinY()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getPerimeter" class="getPerimeter" data-lookup="getPerimeter">getPerimeter()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getPosition" class="getPosition" data-lookup="getPosition">getPosition()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getRight" class="getRight" data-lookup="getRight">getRight()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getStandardized" class="getStandardized" data-lookup="getStandardized">getStandardized()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getTop" class="getTop" data-lookup="getTop">getTop()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getTopLeft" class="getTopLeft" data-lookup="getTopLeft">getTopLeft()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getTopRight" class="getTopRight" data-lookup="getTopRight">getTopRight()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getUnion" class="getUnion" data-lookup="getUnion">getUnion()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getVertAnchor" class="getVertAnchor" data-lookup="getVertAnchor">getVertAnchor()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getWidth" class="getWidth" data-lookup="getWidth">getWidth()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getX" class="getX" data-lookup="getX">getX()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_getY" class="getY" data-lookup="getY">getY()</a>
+</li>
+                     
+                         <li class="noDoc">
+                         <a href="#show_growToInclude" class="growToInclude" data-lookup="growToInclude">growToInclude()</a>
+</li>
+                     
+                     
+                     
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_inside" class="inside" data-lookup="inside">inside()</a>
+</li>
+                     
+                     
+                     
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_intersects" class="intersects" data-lookup="intersects">intersects()</a>
+</li>
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_isEmpty" class="isEmpty" data-lookup="isEmpty">isEmpty()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_isStandardized" class="isStandardized" data-lookup="isStandardized">isStandardized()</a>
+</li>
+                     
+                         <li class="noDoc">
+                         <a href="#show_isZero" class="isZero" data-lookup="isZero">isZero()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_map" class="map" data-lookup="map">map()</a>
+</li>
+                     
+                     
+                         <li>
+                         <a href="#show_mapClamp" class="mapClamp" data-lookup="mapClamp">mapClamp()</a>
+</li>
+                     
+                     
+                         <li>
+                         <a href="#show_operator!=" class="operator!=" data-lookup="operator!=">operator!=()</a>
+</li>
+                     
+                         <li class="noDoc">
+                         <a href="#show_operator+" class="operator+" data-lookup="operator+">operator+()</a>
+</li>
+                     
+                     
+                         <li class="noDoc">
+                         <a href="#show_operator-" class="operator-" data-lookup="operator-">operator-()</a>
+</li>
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_operator==" class="operator==" data-lookup="operator==">operator==()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_scale" class="scale" data-lookup="scale">scale()</a>
+</li>
+                     
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_scaleFromCenter" class="scaleFromCenter" data-lookup="scaleFromCenter">scaleFromCenter()</a>
+</li>
+                     
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_scaleHeight" class="scaleHeight" data-lookup="scaleHeight">scaleHeight()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_scaleTo" class="scaleTo" data-lookup="scaleTo">scaleTo()</a>
+</li>
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_scaleWidth" class="scaleWidth" data-lookup="scaleWidth">scaleWidth()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_set" class="set" data-lookup="set">set()</a>
+</li>
+                     
+                     
+                     
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_setFromCenter" class="setFromCenter" data-lookup="setFromCenter">setFromCenter()</a>
+</li>
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_setHeight" class="setHeight" data-lookup="setHeight">setHeight()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_setPosition" class="setPosition" data-lookup="setPosition">setPosition()</a>
+</li>
+                     
+                     
+                         <li>
+                         <a href="#show_setSize" class="setSize" data-lookup="setSize">setSize()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_setWidth" class="setWidth" data-lookup="setWidth">setWidth()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_setX" class="setX" data-lookup="setX">setX()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_setY" class="setY" data-lookup="setY">setY()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_standardize" class="standardize" data-lookup="standardize">standardize()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_translate" class="translate" data-lookup="translate">translate()</a>
+</li>
+                     
+                     
+                     
+                         <li>
+                         <a href="#show_translateX" class="translateX" data-lookup="translateX">translateX()</a>
+</li>
+                     
+                         <li>
+                         <a href="#show_translateY" class="translateY" data-lookup="translateY">translateY()</a>
+</li>
+                     
+             </ul>
+<!-- list of variables --><p class="top_list_header">variables</p>
+                <ul class="functionslist">
+<li>
+                            <a href="#show_height" class="height" data-lookup="height">float height</a> </li>
+                            <li class="noDoc">
+                            <a href="#show_position" class="position" data-lookup="position">ofPoint position</a> </li>
+                            <li class="noDoc">
+                            <a href="#show_width" class="width" data-lookup="width">float width</a> </li>
+                            <li class="noDoc">
+                            <a href="#show_x" class="x" data-lookup="x">float x</a> </li>
+                            <li>
+                            <a href="#show_y" class="y" data-lookup="y">float y</a> </li>
+                 </ul>
+<!-- list of functions -->
+</div>
+	    <div class="submenucol-right">
+            <div class="documentation_detail class_documentation">
+                <h2>Description</h2>
+<p><a href="../ofRectangle" class="docs_class">ofRectangle</a> is a simple container for describing the position and size of a 2D rectangle. The <a href="../ofRectangle" class="docs_class">ofRectangle</a> class provides a data structure and a collection of useful helper methods for manipulating rectangles. </p>
+<p>Since the <code>width</code> and <code>height</code> variables can be negative, the x/y-position is not guaranteed to represent the upper left hand corner. For example, two visually identical rectangles can be represented in the following ways:</p>
+<pre><code class="cpp">    <a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0, 0, 100, 100);
+</code></pre>
+
+<p>or</p>
+<pre><code class="cpp">    <a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(100, 100, -100, -100);
+</code></pre>
+
+<p>While both representations will yield the same visual results in all openFrameworks renderers, the results of some method operations that modify x, y, width and height (such as scaling) produce mathematically correct, but visually different results for each of the above representations.</p>
+<p>To avoid this ambiguity, users should prefer "standardized" rectangles. "Standardized" rectangles are rectangles whose width &gt;= 0 and height &gt;= 0. The ofRectangle::standardize() method can be used to ensure that the origin is in the "standard" form.</p>
+
+                    <div class="inlined_docs">
+                    <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>A class representing a 2D rectangle.</p>
+<p><a href="../ofRectangle" class="docs_class">ofRectangle</a> is a simple container for describing the position and size of a
+2D rectangle. The ofRectangle::standardize() method can be used to ensure
+that the origin is in the "standard" form.</p>
+<p><strong>Warning</strong>: While <a href="../ofRectangle" class="docs_class">ofRectangle</a> takes <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a>
+all <a href="../ofRectangle" class="docs_class">ofRectangle</a> operations are 2D only, ignoring the z-component.</p>
+                    </div>
+
+                    
+           </div>
+
+            <!-- methods detail -->
+              <!--h2><a name="methods"></a>ofRectangle methods</h2-->
+                        
+<div class="documentation_detail ofRectangle" data-lookup="ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_ofRectangle" class="nohover">ofRectangle()</a></h1>
+	<h2> ofRectangle::ofRectangle()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Construct a rectangle with zero width and zero height at 0, 0.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail ofRectangle" data-lookup="ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_ofRectangle" class="nohover">ofRectangle(...)</a></h1>
+	<h2> ofRectangle::ofRectangle(const glm::vec2 &amp;p, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail ofRectangle" data-lookup="ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_ofRectangle" class="nohover">ofRectangle(...)</a></h1>
+	<h2> ofRectangle::ofRectangle(const glm::vec2 &amp;p0, const glm::vec2 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail ofRectangle" data-lookup="ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_ofRectangle" class="nohover">ofRectangle(...)</a></h1>
+	<h2> ofRectangle::ofRectangle(const glm::vec3 &amp;p, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Construct a rectangle from a point and dimensions.</p>
+<p>To produce consistent results, users are encouraged to initialize
+rectangles in the standardized form with width &gt;=0 and height &gt;= 0.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> representing the position of the rectangle.</p>
+<p>w The width of the rectangle.</p>
+<p>h The height of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail ofRectangle" data-lookup="ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_ofRectangle" class="nohover">ofRectangle(...)</a></h1>
+	<h2> ofRectangle::ofRectangle(const glm::vec3 &amp;p0, const glm::vec3 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Construct a rectangle by defining two corners.</p>
+<p><strong>Warning</strong>: The z-components of the passed glm::vec3s are ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p0 An <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> representing the upper left hand corner.</p>
+<p>p1 An <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> representing the lower right hand corner.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail ofRectangle" data-lookup="ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_ofRectangle" class="nohover">ofRectangle(...)</a></h1>
+	<h2> ofRectangle::ofRectangle(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Construct a rectangle by copying another rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to copy.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail ofRectangle" data-lookup="ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_ofRectangle" class="nohover">ofRectangle(...)</a></h1>
+	<h2> ofRectangle::ofRectangle(float px, float py, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Construct a rectangle using position and size.</p>
+<p>To produce consistent results, users are encouraged to initialize
+rectangles in the standardized form with width &gt;=0 and height &gt;= 0.</p>
+<p><strong>Parameters:</strong></p>
+<p>px The x-position of the rectangle.</p>
+<p>py The y-position of the rectangle.</p>
+<p>w The width of the rectangle.</p>
+<p>h The height of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail ~ofRectangle" data-lookup="~ofRectangle" data-item-type="method">
+  	
+	<h1><a name="show_~ofRectangle" class="nohover">~ofRectangle()</a></h1>
+	<h2> ofRectangle::~ofRectangle()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Destroy the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignTo" data-lookup="alignTo" data-item-type="method">
+  	
+	<h1><a name="show_alignTo" class="nohover">alignTo(...)</a></h1>
+	<h2>void ofRectangle::alignTo(const glm::vec2 &amp;targetPoint, ofAlignHorz thisHorzAnchor=OF_ALIGN_HORZ_CENTER, ofAlignVert thisVertAnchor=OF_ALIGN_VERT_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignHorz Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code> : Does not perform any horizontal alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>   : Uses the left edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>  : Uses the right edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code> : Uses the center of the rectangle to horizontally anchor the alignment.</li>
+</ul>
+<p><strong>ofAlignVert Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code> : Does not perform any vertical alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>    : Uses the upper edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code> : Uses the bottom edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code> : Uses the center of the rectangle to vertically anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignVert and ofAlignHorz, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignTo" data-lookup="alignTo" data-item-type="method">
+  	
+	<h1><a name="show_alignTo" class="nohover">alignTo(...)</a></h1>
+	<h2>void ofRectangle::alignTo(const glm::vec3 &amp;targetPoint, ofAlignHorz thisHorzAnchor=OF_ALIGN_HORZ_CENTER, ofAlignVert thisVertAnchor=OF_ALIGN_VERT_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignHorz Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code> : Does not perform any horizontal alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>   : Uses the left edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>  : Uses the right edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code> : Uses the center of the rectangle to horizontally anchor the alignment.</li>
+</ul>
+<p><strong>ofAlignVert Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code> : Does not perform any vertical alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>    : Uses the upper edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code> : Uses the bottom edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code> : Uses the center of the rectangle to vertically anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignVert and ofAlignHorz, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Align this <a href="../ofRectangle" class="docs_class">ofRectangle</a> to an <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> in both x- and y dimentions.</p>
+<p>Aligns the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to the given point using an
+ofAlignHorz constant and an ofAlignVert constant. If neither constant is
+passed in, this will align the center of the rectangle.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetPoint The target <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> to align to.</p>
+<p>thisHorzAnchor The horizontal alignment anchor.</p>
+<p>thisVertAnchor The vertical alignment anchor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignTo" data-lookup="alignTo" data-item-type="method">
+  	
+	<h1><a name="show_alignTo" class="nohover">alignTo(...)</a></h1>
+	<h2>void ofRectangle::alignTo(const ofRectangle &amp;targetRect, ofAlignHorz sharedHorzAnchor=OF_ALIGN_HORZ_CENTER, ofAlignVert sharedVertAnchor=OF_ALIGN_VERT_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignHorz Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code> : Does not perform any horizontal alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>   : Uses the left edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>  : Uses the right edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code> : Uses the center of the rectangle to horizontally anchor the alignment.</li>
+</ul>
+<p><strong>ofAlignVert Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code> : Does not perform any vertical alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>    : Uses the upper edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code> : Uses the bottom edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code> : Uses the center of the rectangle to vertically anchor the alignment.</li>
+</ul>
+<div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Align this <a href="../ofRectangle" class="docs_class">ofRectangle</a> to an <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> in both x- and y dimentions using a shared anchor.</p>
+<p>Aligns the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to that of the passed-in
+ofRectangle. Can take an ofAlignHorz constant and an ofAlignVert
+constant.</p>
+<p>If neither constant is passed in, this will align the centers of the
+rectangles.</p>
+<p>If constants are passed in, it will use those constants for both
+rectangles.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The target <a href="../ofRectangle" class="docs_class">ofRectangle</a> to align this rectangle to.</p>
+<p>sharedHorzAnchor The alignment anchor for both rectangles.</p>
+<p>sharedVertAnchor The alignment anchor for both rectangles.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignTo" data-lookup="alignTo" data-item-type="method">
+  	
+	<h1><a name="show_alignTo" class="nohover">alignTo(...)</a></h1>
+	<h2>void ofRectangle::alignTo(const ofRectangle &amp;targetRect, ofAlignHorz targetHorzAnchor, ofAlignVert targetVertAnchor, ofAlignHorz thisHorzAnchor, ofAlignVert thisVertAnchor)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignHorz Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code> : Does not perform any horizontal alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>   : Uses the left edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>  : Uses the right edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code> : Uses the center of the rectangle to horizontally anchor the alignment.</li>
+</ul>
+<p><strong>ofAlignVert Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code> : Does not perform any vertical alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>    : Uses the upper edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code> : Uses the bottom edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code> : Uses the center of the rectangle to vertically anchor the alignment.</li>
+</ul>
+<div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Vertically align this <a href="../ofRectangle" class="docs_class">ofRectangle</a> to another target ofRectangle.</p>
+<p>Aligns the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to that of the passed-in
+ofRectangle. Takes two ofAlignHorz constants and two ofAlignVert
+constants.</p>
+<p>Will align the chosen anchors in the <a href="../ofRectangle" class="docs_class">ofRectangle</a> with the chosen
+anchors in the passed-in ofRectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The target <a href="../ofRectangle" class="docs_class">ofRectangle</a> to align this rectangle to.</p>
+<p>targetHorzAnchor The vertical alignment anchor for the target rectangle.</p>
+<p>targetVertAnchor The horizontal alignment anchor for the target rectangle.</p>
+<p>thisHorzAnchor The horizontal alignment anchor for this rectangle.</p>
+<p>thisVertAnchor The vertical alignment anchor for this rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignToHorz" data-lookup="alignToHorz" data-item-type="method">
+  	
+	<h1><a name="show_alignToHorz" class="nohover">alignToHorz(...)</a></h1>
+	<h2>void ofRectangle::alignToHorz(const float &amp;targetX, ofAlignHorz thisHorzAnchor=OF_ALIGN_HORZ_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignHorz Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code> : Does not perform any horizontal alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>   : Uses the left edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>  : Uses the right edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code> : Uses the center of the rectangle to horizontally anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignHorz, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Horizontally align a rectangle using a position and anchor edge.</p>
+<p>Aligns the horizontal position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to the given x-
+position using an ofAlignHorz constant as anchor. If a constant is not passed in
+this will align the center of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetX The x-position to align this rectangle to.</p>
+<p>thisHorzAnchor The edge of this rectangle to align.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignToHorz" data-lookup="alignToHorz" data-item-type="method">
+  	
+	<h1><a name="show_alignToHorz" class="nohover">alignToHorz(...)</a></h1>
+	<h2>void ofRectangle::alignToHorz(const ofRectangle &amp;targetRect, ofAlignHorz sharedAnchor=OF_ALIGN_HORZ_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignHorz Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code> : Does not perform any horizontal alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>   : Uses the left edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>  : Uses the right edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code> : Uses the center of the rectangle to horizontally anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignHorz, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Horizontally align two rectangles to another using one anchor for both.</p>
+<p>Aligns the horizontal position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to that of the
+passed-in <a href="../ofRectangle" class="docs_class">ofRectangle</a> using an ofAlignHorz constant as anchor.</p>
+<p>If a constant is not passed in, this will align the horizontal centers
+of the rectangles.</p>
+<p>If a constant is passed in, it will use that constant for both
+rectangles.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The target rectangle to align this rectangle to.</p>
+<p>sharedAnchor The common edge of the rectangles to align.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignToHorz" data-lookup="alignToHorz" data-item-type="method">
+  	
+	<h1><a name="show_alignToHorz" class="nohover">alignToHorz(...)</a></h1>
+	<h2>void ofRectangle::alignToHorz(const ofRectangle &amp;targetRect, ofAlignHorz targetHorzAnchor, ofAlignHorz thisHorzAnchor)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignHorz Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code> : Does not perform any horizontal alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>   : Uses the left edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>  : Uses the right edge of the rectangle to horizontally anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code> : Uses the center of the rectangle to horizontally anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignHorz, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Horizontally align two rectangles to another using two anchors.</p>
+<p>Aligns the horizontal position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to that of the
+passed-in ofRectangle. Takes two ofAlignHorz constants as anchors.</p>
+<p>Will align the chosen anchor in the <a href="../ofRectangle" class="docs_class">ofRectangle</a> with the chosen anchor
+in the passed-in ofRectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The target rectangle to align this rectangle to.</p>
+<p>targetHorzAnchor The edge of the other rectangle to align.</p>
+<p>thisHorzAnchor The edge of this rectangle to align.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignToVert" data-lookup="alignToVert" data-item-type="method">
+  	
+	<h1><a name="show_alignToVert" class="nohover">alignToVert(...)</a></h1>
+	<h2>void ofRectangle::alignToVert(const float &amp;targetY, ofAlignVert sharedAnchor=OF_ALIGN_VERT_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignVert Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code> : Does not perform any vertical alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>    : Uses the upper edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code> : Uses the bottom edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code> : Uses the center of the rectangle to vertically anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignVert, see the
+<em>graphics/rectangleAlignmentAndScaling/</em> example within the examples
+directory</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Vertically align a rectangle using a position and anchor edge.</p>
+<p>Aligns the vertical position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to the given y-
+position using an ofAlignVert constant as anchor. If a constant is not passed in
+this will align the center of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetY The target y-position to align this rectangle to.</p>
+<p>sharedAnchor The alignment position of this <a href="../ofRectangle" class="docs_class">ofRectangle</a> to use.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignToVert" data-lookup="alignToVert" data-item-type="method">
+  	
+	<h1><a name="show_alignToVert" class="nohover">alignToVert(...)</a></h1>
+	<h2>void ofRectangle::alignToVert(const ofRectangle &amp;targetRect, ofAlignVert sharedAnchor=OF_ALIGN_VERT_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignVert Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code> : Does not perform any vertical alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>    : Uses the upper edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code> : Uses the bottom edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code> : Uses the center of the rectangle to vertically anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignVert, see the
+<em>graphics/rectangleAlignmentAndScaling/</em> example within the examples
+directory</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Vertically align two rectangles to another using one anchor for both.</p>
+<p>Aligns the vertical position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to that of the
+passed-in <a href="../ofRectangle" class="docs_class">ofRectangle</a> using an ofAlignVert constant as anchor.</p>
+<p>If a constant is not passed in, this will align the vertical centers
+of the rectangles.</p>
+<p>If a constant is passed in, it will use that constant for both rectangles.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The target <a href="../ofRectangle" class="docs_class">ofRectangle</a> to align this rectangle to.</p>
+<p>sharedAnchor The alignment position for both rectangles to use.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail alignToVert" data-lookup="alignToVert" data-item-type="method">
+  	
+	<h1><a name="show_alignToVert" class="nohover">alignToVert(...)</a></h1>
+	<h2>void ofRectangle::alignToVert(const ofRectangle &amp;targetRect, ofAlignVert targetVertAnchor, ofAlignVert thisVertAnchor)</h2>
+	<div class="documentation_detail_description">
+		
+        <p><strong>ofAlignVert Constants:</strong></p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code> : Does not perform any vertical alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>    : Uses the upper edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code> : Uses the bottom edge of the rectangle to vertically anchor the alignment.</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code> : Uses the center of the rectangle to vertically anchor the alignment.</li>
+</ul>
+<p>For a working example of how to use ofAlignVert, see the
+<em>graphics/rectangleAlignmentAndScaling/</em> example within the examples
+directory</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Vertically align two rectangles to another using two anchors.</p>
+<p>Will align the chosen anchor in the <a href="../ofRectangle" class="docs_class">ofRectangle</a> with the chosen anchor
+in the passed-in ofRectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The target <a href="../ofRectangle" class="docs_class">ofRectangle</a> to align this rectangle to.</p>
+<p>targetVertAnchor The alignment anchor for this rectangle.</p>
+<p>thisVertAnchor The alignment anchor for the other rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getArea" data-lookup="getArea" data-item-type="method">
+  	
+	<h1><a name="show_getArea" class="nohover">getArea()</a></h1>
+	<h2>float ofRectangle::getArea()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Example:</p>
+<pre><code class="cpp">
+// Create a rectangle that is 100 units wide and 200 units tall
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0,0,100,200);
+
+// Get the area of that rectangle
+float areaValue = myRect.getArea();
+
+// areaValue will be 20000.0.
+</code></pre>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the area of the ofRectangle.</p>
+<p>This is the product of the width and height of the recatngle.</p>
+<p><strong>Returns</strong>: The area of the rectangle as float.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getAspectRatio" data-lookup="getAspectRatio" data-item-type="method">
+  	
+	<h1><a name="show_getAspectRatio" class="nohover">getAspectRatio()</a></h1>
+	<h2>float ofRectangle::getAspectRatio()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Example:</p>
+<pre><code class="cpp">
+// Create a rectangle that is 100 units wide and 200 units tall
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0,0,100,200);
+
+// Get the aspect ratio of that rectangle
+float aspectRatioValue = myRect.getAspectRatio();
+
+// aspectRatioValue will be 0.5.
+</code></pre>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the ratio of width to height of the ofRectangle.</p>
+<p><strong>Returns</strong>: The aspect ratio of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getBottom" data-lookup="getBottom" data-item-type="method">
+  	
+	<h1><a name="show_getBottom" class="nohover">getBottom()</a></h1>
+	<h2>float ofRectangle::getBottom()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getMaxY().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the y position of the bottom edge of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>See also</strong>: getMaxY()</p>
+<p><strong>Returns</strong>: The y position of the bottom edge of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getBottomLeft" data-lookup="getBottomLeft" data-item-type="method">
+  	
+	<h1><a name="show_getBottomLeft" class="nohover">getBottomLeft()</a></h1>
+	<h2>glm::vec3 ofRectangle::getBottomLeft()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the bottom-left coordinates of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as glm::vec3.</p>
+<p><strong>Returns</strong>: The bottom-left coordinates of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getBottomRight" data-lookup="getBottomRight" data-item-type="method">
+  	
+	<h1><a name="show_getBottomRight" class="nohover">getBottomRight()</a></h1>
+	<h2>glm::vec3 ofRectangle::getBottomRight()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getMax().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the bottom-right coordinates of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as glm::vec3.</p>
+<p><strong>See also</strong>: getMax()</p>
+<p><strong>Returns</strong>: The bottom-right coordinates of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getCenter" data-lookup="getCenter" data-item-type="method">
+  	
+	<h1><a name="show_getCenter" class="nohover">getCenter()</a></h1>
+	<h2>glm::vec3 ofRectangle::getCenter()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the coordiantes of the ofRectangle's center as glm::vec3.</p>
+<p><strong>Warning</strong>: The z component of the returned <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> will always be 0.</p>
+<p><strong>Returns</strong>: The x and y coordinates of the center of the rectangle (z = 0).</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getHeight" data-lookup="getHeight" data-item-type="method">
+  	
+	<h1><a name="show_getHeight" class="nohover">getHeight()</a></h1>
+	<h2>float ofRectangle::getHeight()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: The height of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getHorzAnchor" data-lookup="getHorzAnchor" data-item-type="method">
+  	
+	<h1><a name="show_getHorzAnchor" class="nohover">getHorzAnchor(...)</a></h1>
+	<h2>float ofRectangle::getHorzAnchor(ofAlignHorz anchor)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Possible anchor values are:</p>
+<ul>
+<li>
+<code>OF_ALIGN_HORZ_IGNORE</code>  : returns 0.0</li>
+<li>
+<code>OF_ALIGN_HORZ_LEFT</code>    : returns the position of the left edge, equivalent to ofRectangle::geLeft().</li>
+<li>
+<code>OF_ALIGN_HORZ_RIGHT</code>   : returns the position of the right edge, equivalent to ofRectangle::getRight().</li>
+<li>
+<code>OF_ALIGN_HORZ_CENTER</code>  : returns the x-position of the center of the ofRectangle.</li>
+</ul>
+<p>Any other anchor value will return <code>0.0</code>.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>A convenience method that returns the value of one of
+the horizontal edges of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> using the <code>ofAlignHorz</code> enum.</p>
+<p><strong>Parameters:</strong></p>
+<p>anchor The anchor position to query.</p>
+<p><strong>Returns</strong>: the value of the referenced anchor position.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getIntersection" data-lookup="getIntersection" data-item-type="method">
+  	
+	<h1><a name="show_getIntersection" class="nohover">getIntersection(...)</a></h1>
+	<h2>ofRectangle ofRectangle::getIntersection(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the intersecting area between this rectangle and another.</p>
+<p>This method will attempt to return the area of overlap between this
+rectangle and the passed rectangle.</p>
+<p>If the two rectangles do not overlap, it will return an "empty"
+rectangle located (0, 0) with 0 width and 0 height.</p>
+<p>If the two rectangles only share an edge this will return a rectangle
+positioned on that edge:</p>
+<p>If the shared edge is vertical, the rectangle will have zero width,
+otherwise it will have zero height.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to intersect.</p>
+<p><strong>Returns</strong>: A new <a href="../ofRectangle" class="docs_class">ofRectangle</a> representing the intersecting area or an
+         empty rectangle (0, 0, 0, 0) if there is no intersection.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getLeft" data-lookup="getLeft" data-item-type="method">
+  	
+	<h1><a name="show_getLeft" class="nohover">getLeft()</a></h1>
+	<h2>float ofRectangle::getLeft()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getMinX().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the x position of the left edge of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>See also</strong>: getMinX()</p>
+<p><strong>Returns</strong>: The x position of the left edge of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getMax" data-lookup="getMax" data-item-type="method">
+  	
+	<h1><a name="show_getMax" class="nohover">getMax()</a></h1>
+	<h2>glm::vec3 ofRectangle::getMax()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Returns the (x,y) coordinates of the corner of the rectangle with the largest x and largest y position as an ofPoint.</p>
+<p>Equivalent to ofRectangle::getBottomRight().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the maximum x and y coordinates of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as glm::vec3.</p>
+<p><strong>Returns</strong>: The maximum x and y coordinates of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getMaxX" data-lookup="getMaxX" data-item-type="method">
+  	
+	<h1><a name="show_getMaxX" class="nohover">getMaxX()</a></h1>
+	<h2>float ofRectangle::getMaxX()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Returns the position of the larger of the two sides of the rectangle perpendicular to the x axis as a float.</p>
+<p>Equivalent to ofRectangle::getRight().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the largest x position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: The largest x position of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getMaxY" data-lookup="getMaxY" data-item-type="method">
+  	
+	<h1><a name="show_getMaxY" class="nohover">getMaxY()</a></h1>
+	<h2>float ofRectangle::getMaxY()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getBottom().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the largest y position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: The largest y position of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getMin" data-lookup="getMin" data-item-type="method">
+  	
+	<h1><a name="show_getMin" class="nohover">getMin()</a></h1>
+	<h2>glm::vec3 ofRectangle::getMin()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getTopLeft().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the minimum x and y coordinates of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as glm::vec3.</p>
+<p><strong>Returns</strong>: The minimum x and y coordinates of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getMinX" data-lookup="getMinX" data-item-type="method">
+  	
+	<h1><a name="show_getMinX" class="nohover">getMinX()</a></h1>
+	<h2>float ofRectangle::getMinX()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getLeft().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the smallest x position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: The smallest xposition of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getMinY" data-lookup="getMinY" data-item-type="method">
+  	
+	<h1><a name="show_getMinY" class="nohover">getMinY()</a></h1>
+	<h2>float ofRectangle::getMinY()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getTop().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the smallest y position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: The smallest y position of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getPerimeter" data-lookup="getPerimeter" data-item-type="method">
+  	
+	<h1><a name="show_getPerimeter" class="nohover">getPerimeter()</a></h1>
+	<h2>float ofRectangle::getPerimeter()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Example:</p>
+<pre><code class="cpp">
+// Create a rectangle that is 100 units wide and 200 units tall
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0,0,100,200);
+
+// Get the perimeter of that rectangle
+float perimeterValue = myRect.getPerimeter();
+
+// perimeterValue will be 600.0.
+</code></pre>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the perimeter of the ofRectangle.</p>
+<p>This is the sum of the lengths of the sides.</p>
+<p><strong>Returns</strong>: The perimeter of the rectangle as float.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getPosition" data-lookup="getPosition" data-item-type="method">
+  	
+	<h1><a name="show_getPosition" class="nohover">getPosition()</a></h1>
+	<h2>const glm::vec3 &amp; ofRectangle::getPosition()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Returns the (x,y) position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as an ofPoint.</p>
+<p>Equivalent to ofRectangle::getPositionRef().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the ofRectangle's position.</p>
+<p><strong>Warning</strong>: The z component of the returned <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is undefined.</p>
+<p><strong>Returns</strong>: The rectangle's position.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getRight" data-lookup="getRight" data-item-type="method">
+  	
+	<h1><a name="show_getRight" class="nohover">getRight()</a></h1>
+	<h2>float ofRectangle::getRight()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getMaxX().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the x position of the right edge of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>See also</strong>: getMaxX()</p>
+<p><strong>Returns</strong>: The y position of the right edge of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getStandardized" data-lookup="getStandardized" data-item-type="method">
+  	
+	<h1><a name="show_getStandardized" class="nohover">getStandardized()</a></h1>
+	<h2>ofRectangle ofRectangle::getStandardized()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the standardized representation of this rectangle.</p>
+<p>"Standardized" rectangles are rectangles whose width and height are positive.
+For more information about standardized rectangles, see the discussion of the standardize() method.</p>
+<p><strong>Returns</strong>: the Standardized version of this ofRectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getTop" data-lookup="getTop" data-item-type="method">
+  	
+	<h1><a name="show_getTop" class="nohover">getTop()</a></h1>
+	<h2>float ofRectangle::getTop()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getMinY().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the y position of the top edge of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>See also</strong>: getMinY()</p>
+<p><strong>Returns</strong>: The y position of the top edge of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getTopLeft" data-lookup="getTopLeft" data-item-type="method">
+  	
+	<h1><a name="show_getTopLeft" class="nohover">getTopLeft()</a></h1>
+	<h2>glm::vec3 ofRectangle::getTopLeft()</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Equivalent to ofRectangle::getMin().</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the top-left coordinates of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as glm::vec3.</p>
+<p><strong>See also</strong>: getMin()</p>
+<p><strong>Returns</strong>: The top-left coordinates of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getTopRight" data-lookup="getTopRight" data-item-type="method">
+  	
+	<h1><a name="show_getTopRight" class="nohover">getTopRight()</a></h1>
+	<h2>glm::vec3 ofRectangle::getTopRight()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the top-right coordinates of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as glm::vec3.</p>
+<p><strong>Returns</strong>: The top-right coordinates of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getUnion" data-lookup="getUnion" data-item-type="method">
+  	
+	<h1><a name="show_getUnion" class="nohover">getUnion(...)</a></h1>
+	<h2>ofRectangle ofRectangle::getUnion(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Return a new <a href="../ofRectangle" class="docs_class">ofRectangle</a> whose area contains both the area of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> and that of the passed ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Get the union area between this rectangle and anohter.</p>
+<p><strong>See also</strong>: getIntersection(const ofRectangle&amp; rect) const</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to unite with.</p>
+<p><strong>Returns</strong>: A new <a href="../ofRectangle" class="docs_class">ofRectangle</a> whose area contains both the area of the
+         this rectangle and the passed rectangle..</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getVertAnchor" data-lookup="getVertAnchor" data-item-type="method">
+  	
+	<h1><a name="show_getVertAnchor" class="nohover">getVertAnchor(...)</a></h1>
+	<h2>float ofRectangle::getVertAnchor(ofAlignVert anchor)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Possible anchor values are:</p>
+<ul>
+<li>
+<code>OF_ALIGN_VERT_IGNORE</code>  : returns 0.0</li>
+<li>
+<code>OF_ALIGN_VERT_TOP</code>     : returns the position of the upper edge, equivalent to ofRectangle::getTop().</li>
+<li>
+<code>OF_ALIGN_VERT_BOTTOM</code>  : returns the position of the bottom edge, equivalent to ofRectangle::getBottom().</li>
+<li>
+<code>OF_ALIGN_VERT_CENTER</code>  : returns the y-position of the center of the ofRectangle.</li>
+</ul>
+<p>Any other anchor value will return <code>0.0</code>.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>A convenience method that returns the value of one of the
+vertical edges of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> using the ofAlignVert enum.</p>
+<p><strong>Parameters:</strong></p>
+<p>anchor The anchor position to query.</p>
+<p><strong>Returns</strong>: the value of the referenced anchor position.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getWidth" data-lookup="getWidth" data-item-type="method">
+  	
+	<h1><a name="show_getWidth" class="nohover">getWidth()</a></h1>
+	<h2>float ofRectangle::getWidth()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the width of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: The width of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getX" data-lookup="getX" data-item-type="method">
+  	
+	<h1><a name="show_getX" class="nohover">getX()</a></h1>
+	<h2>float ofRectangle::getX()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the x position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: The x position of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail getY" data-lookup="getY" data-item-type="method">
+  	
+	<h1><a name="show_getY" class="nohover">getY()</a></h1>
+	<h2>float ofRectangle::getY()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Gets the y position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as float.</p>
+<p><strong>Returns</strong>: the y position of the rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail growToInclude" data-lookup="growToInclude" data-item-type="method">
+  	
+	<h1><a name="show_growToInclude" class="nohover">growToInclude(...)</a></h1>
+	<h2>void ofRectangle::growToInclude(const glm::vec2 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail growToInclude" data-lookup="growToInclude" data-item-type="method">
+  	
+	<h1><a name="show_growToInclude" class="nohover">growToInclude(...)</a></h1>
+	<h2>void ofRectangle::growToInclude(const glm::vec2 &amp;p0, const glm::vec2 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Modify the <a href="../ofRectangle" class="docs_class">ofRectangle</a> so that both the ofPoints given are enclosed within the rectangle.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail growToInclude" data-lookup="growToInclude" data-item-type="method">
+  	
+	<h1><a name="show_growToInclude" class="nohover">growToInclude(...)</a></h1>
+	<h2>void ofRectangle::growToInclude(const glm::vec3 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Grow the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to include the given point.</p>
+<p>This will potentially change the width, height, x-position, and y-
+position of the ofRectangle.  If the point is already within the
+rectangle, this rectangle will remain unchanged.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The position to include.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail growToInclude" data-lookup="growToInclude" data-item-type="method">
+  	
+	<h1><a name="show_growToInclude" class="nohover">growToInclude(...)</a></h1>
+	<h2>void ofRectangle::growToInclude(const glm::vec3 &amp;p0, const glm::vec3 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Modify the <a href="../ofRectangle" class="docs_class">ofRectangle</a> so that both the ofPoints given are enclosed within the rectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Grow the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to include the given line segment.</p>
+<p>This will potentially change the width, height, x-position, and
+y-position of the ofRectangle.  If the points are already within the
+rectangle, this rectangle will remain unchanged.</p>
+<p><strong>Warning</strong>: The z-components of the passed glm::vec3s are ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p0 The first point to include.</p>
+<p>p1 The second point to include.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail growToInclude" data-lookup="growToInclude" data-item-type="method">
+  	
+	<h1><a name="show_growToInclude" class="nohover">growToInclude(...)</a></h1>
+	<h2>void ofRectangle::growToInclude(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Expands the <a href="../ofRectangle" class="docs_class">ofRectangle</a> so that the <a href="../ofRectangle" class="docs_class">ofRectangle</a> passed into the method is entirely enclosed by the current ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Grow the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to include the given ofRectangle.</p>
+<p>This will potentially change the width, height, x-position, and y-
+position of the ofRectangle.  If the rectangle is already within the
+rectangle, this rectangle will remain unchanged.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to include.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail growToInclude" data-lookup="growToInclude" data-item-type="method">
+  	
+	<h1><a name="show_growToInclude" class="nohover">growToInclude(...)</a></h1>
+	<h2>void ofRectangle::growToInclude(float px, float py)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Grow the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to include the given (x, y) coordinates.</p>
+<p>This will potentially change the width, height, x-position, and y-
+position of the ofRectangle. If the points are already within the
+rectangle, this rectangle will remain unchanged.</p>
+<p><strong>Parameters:</strong></p>
+<p>px The x-coordinate to include.</p>
+<p>py The y-coordiante to include.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail inside" data-lookup="inside" data-item-type="method">
+  	
+	<h1><a name="show_inside" class="nohover">inside(...)</a></h1>
+	<h2>bool ofRectangle::inside(const glm::vec2 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Coordinates (x, y) are considered inside the rectangle if:</p>
+<p><code>x &gt; rectMinX &amp;&amp; x &lt; rectMinX &amp;&amp; y &gt; rectMinY &amp;&amp; y &lt; rectMaxY</code></p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail inside" data-lookup="inside" data-item-type="method">
+  	
+	<h1><a name="show_inside" class="nohover">inside(...)</a></h1>
+	<h2>bool ofRectangle::inside(const glm::vec2 &amp;p0, const glm::vec2 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>This can be used to test if a line segment is inside the rectangle.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail inside" data-lookup="inside" data-item-type="method">
+  	
+	<h1><a name="show_inside" class="nohover">inside(...)</a></h1>
+	<h2>bool ofRectangle::inside(const glm::vec3 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Coordinates (x, y) are considered inside the rectangle if:</p>
+<p><code>x &gt; rectMinX &amp;&amp; x &lt; rectMaxX &amp;&amp; y &gt; rectMinY &amp;&amp; y &lt; rectMaxY</code></p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Determines if the <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is within the ofRectangle.</p>
+<p>Note that points on the edge of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> are not
+considered within the rectangle and will return false.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The point to test.</p>
+<p><strong>Returns</strong>: true if the point p is inside this ofRectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail inside" data-lookup="inside" data-item-type="method">
+  	
+	<h1><a name="show_inside" class="nohover">inside(...)</a></h1>
+	<h2>bool ofRectangle::inside(const glm::vec3 &amp;p0, const glm::vec3 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>This can be used to test if a line segment is inside the rectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Determines if both of the passed glm::vec3s are within the <a href="../ofRectangle" class="docs_class">ofRectangle</a> or not.</p>
+<p>Note that points on the edge of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> are not considered
+within the rectangle and will return false.</p>
+<p><strong>Warning</strong>: The z-components of the passed glm::vec3s are ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p0 The first point to test.</p>
+<p>p1 The second point to test.</p>
+<p><strong>Returns</strong>: true if both points are inside the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail inside" data-lookup="inside" data-item-type="method">
+  	
+	<h1><a name="show_inside" class="nohover">inside(...)</a></h1>
+	<h2>bool ofRectangle::inside(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Determines if another <a href="../ofRectangle" class="docs_class">ofRectangle</a> is completely within the ofRectangle.</p>
+<p>Note that rectangles that share an edge with the <a href="../ofRectangle" class="docs_class">ofRectangle</a> are not
+considered within the rectangle and will return false.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The <a href="../ofRectangle" class="docs_class">ofRectangle</a> to test.</p>
+<p><strong>Returns</strong>: true if all four corners of the rect are within this rectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail inside" data-lookup="inside" data-item-type="method">
+  	
+	<h1><a name="show_inside" class="nohover">inside(...)</a></h1>
+	<h2>bool ofRectangle::inside(float px, float py)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Coordinates (x, y) are considered inside the rectangle if:</p>
+<p><code>x &gt; rectMinX &amp;&amp; x &lt; rectMinX &amp;&amp; y &gt; rectMinY &amp;&amp; y &lt; rectMaxY</code></p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Determines if the coordinates (x, y) are within the ofRectangle.</p>
+<p>Note that coordinates on the edge of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> are not
+considered within the rectangle and will return false.</p>
+<p><strong>Parameters:</strong></p>
+<p>px The x-coordinate to test.</p>
+<p>py The y-coordinate to test.</p>
+<p><strong>Returns</strong>: true if px and py are inside this ofRectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail intersects" data-lookup="intersects" data-item-type="method">
+  	
+	<h1><a name="show_intersects" class="nohover">intersects(...)</a></h1>
+	<h2>bool ofRectangle::intersects(const glm::vec2 &amp;p0, const glm::vec2 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>This method can be used to check if any part of the line segment intersects with the rectangle.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail intersects" data-lookup="intersects" data-item-type="method">
+  	
+	<h1><a name="show_intersects" class="nohover">intersects(...)</a></h1>
+	<h2>bool ofRectangle::intersects(const glm::vec3 &amp;p0, const glm::vec3 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>This method can be used to check if any part of the line segment intersects with the rectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Determines if a line segment intersects with the ofRectangle.</p>
+<p><strong>Warning</strong>: The z-components of the passed glm::vec3s are ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p0 The first point to test.</p>
+<p>p1 The second point to test.</p>
+<p><strong>Returns</strong>: <code>true</code> if the line segment defined by the two passed glm::vec3s
+    either crosses the perimeter of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> or is completely
+    contained within.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail intersects" data-lookup="intersects" data-item-type="method">
+  	
+	<h1><a name="show_intersects" class="nohover">intersects(...)</a></h1>
+	<h2>bool ofRectangle::intersects(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Returns true if the area contained within the <a href="../ofRectangle" class="docs_class">ofRectangle</a> overlaps with the area contained within the passed ofRectangle,
+returns false otherwise.</p>
+<p>Rectangles that only share an edge and do not intersect otherwise are not considered to intersect and will return false.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Determines if another rectangle intersects with this rectangle.</p>
+<p>Rectangles that only share an edge and do not intersect otherwise are
+not considered to intersect and will return false.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to test.</p>
+<p><strong>Returns</strong>: <code>true</code> if the area contained within the <a href="../ofRectangle" class="docs_class">ofRectangle</a> overlaps
+    with the area contained within the passed ofRectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail isEmpty" data-lookup="isEmpty" data-item-type="method">
+  	
+	<h1><a name="show_isEmpty" class="nohover">isEmpty()</a></h1>
+	<h2>bool ofRectangle::isEmpty()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Determines if the ofRectangle's area is zero.</p>
+<p><strong>See also</strong>: getArea().</p>
+<p><strong>Returns</strong>: true if both the width == 0 and height == 0, false if either is non-zero.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail isStandardized" data-lookup="isStandardized" data-item-type="method">
+  	
+	<h1><a name="show_isStandardized" class="nohover">isStandardized()</a></h1>
+	<h2>bool ofRectangle::isStandardized()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Returns true if this <a href="../ofRectangle" class="docs_class">ofRectangle</a> is standardized.</p>
+<p>"Standardized" rectangles are rectangles whose width and height are positive.
+For more information about standardized rectangles, see the discussion of the standardize() method.</p>
+<p><strong>Returns</strong>: true if both width &gt;= 0 and height &gt;= 0.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail isZero" data-lookup="isZero" data-item-type="method">
+  	
+	<h1><a name="show_isZero" class="nohover">isZero()</a></h1>
+	<h2>bool ofRectangle::isZero()</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail map" data-lookup="map" data-item-type="method">
+  	
+	<h1><a name="show_map" class="nohover">map(...)</a></h1>
+	<h2>glm::vec2 ofRectangle::map(const glm::vec2 &amp;coeff)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Maps a normalized coordinate into this rectangle</p>
+<p>Normalized coordinates range from [0,1] inclusive. It is used to define a ratio
+between the coordinates and a unitary rectangle. This ratio is mapped into
+this rectangle to scale to real values. If normalized coordinates are out of bounds,
+output will be scaled accordingly.</p>
+<p><strong>Parameters:</strong></p>
+<p>coeff Normalized coordinate to map to this rectangle</p>
+<p><strong>Returns</strong>: The mapped coordinate</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail map" data-lookup="map" data-item-type="method">
+  	
+	<h1><a name="show_map" class="nohover">map(...)</a></h1>
+	<h2>ofRectangle ofRectangle::map(const ofRectangle &amp;coeff)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Maps a normalized coordinate into this rectangle</p>
+<p>Normalized rectangles' position, width and height range from [0,1] inclusive.
+It is used to define a ratio between the rectangle and a unitary rectangle.
+This ratio is mapped into this rectangle to scale to real values.
+If normalized rectangle is out of bounds, output will be scaled accordingly.</p>
+<p><strong>Parameters:</strong></p>
+<p>coeff Normalized rectangle to map to this rectangle</p>
+<p><strong>Returns</strong>: The mapped coordinate</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail mapClamp" data-lookup="mapClamp" data-item-type="method">
+  	
+	<h1><a name="show_mapClamp" class="nohover">mapClamp(...)</a></h1>
+	<h2>glm::vec2 ofRectangle::mapClamp(const glm::vec2 &amp;coeff)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Maps a normalized coordinate into this rectangle, clamping if out of bounds</p>
+<p>Normalized coordinates range from [0,1] inclusive. It is used to define a ratio
+between the coordinates and a unitary rectangle. This ratio is mapped into
+this rectangle to scale to real values. If normalized coordinates are out of bounds,
+output will be clamped to this rectangle's position, width and height.</p>
+<p><strong>Parameters:</strong></p>
+<p>coeff Normalized coordinate to map to this rectangle</p>
+<p><strong>Returns</strong>: The mapped coordinate, clamped</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail mapClamp" data-lookup="mapClamp" data-item-type="method">
+  	
+	<h1><a name="show_mapClamp" class="nohover">mapClamp(...)</a></h1>
+	<h2>ofRectangle ofRectangle::mapClamp(const ofRectangle &amp;coeff)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Maps a normalized rectangle to this rectangle, clamping if out of bounds</p>
+<p>Normalized rectangles' position, width and height range from [0,1] inclusive.
+It is used to define a ratio between the rectangle and a unitary rectangle.
+This ratio is mapped into this rectangle to scale to real values.
+If normalized rectangle is out of bounds, output will be clamped to this
+rectangle's position, width and height.</p>
+<p><strong>Parameters:</strong></p>
+<p>coeff Normalized rectangle to map to this rectangle</p>
+<p><strong>Returns</strong>: The mapped rectangle</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail operator!=" data-lookup="operator!=" data-item-type="method">
+  	
+	<h1><a name="show_operator!=" class="nohover">operator!=(...)</a></h1>
+	<h2>bool ofRectangle::operator!=(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>If the two ofRectangles differ in x, y, width, or height, they
+are considered unequal.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to compare.</p>
+<p><strong>Returns</strong>: True if the rectangles are not equal.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail operator+" data-lookup="operator+" data-item-type="method">
+  	
+	<h1><a name="show_operator+" class="nohover">operator+(...)</a></h1>
+	<h2>ofRectangle ofRectangle::operator+(const glm::vec2 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail operator+" data-lookup="operator+" data-item-type="method">
+  	
+	<h1><a name="show_operator+" class="nohover">operator+(...)</a></h1>
+	<h2>ofRectangle ofRectangle::operator+(const glm::vec3 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Returns a new <a href="../ofRectangle" class="docs_class">ofRectangle</a> where the x and y positions of the
+rectangle are offset by the (x, y) coordinates of the glm::vec3.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The point to translate.</p>
+<p><strong>Returns</strong>: The translated ofRectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail operator-" data-lookup="operator-" data-item-type="method">
+  	
+	<h1><a name="show_operator-" class="nohover">operator-(...)</a></h1>
+	<h2>ofRectangle ofRectangle::operator-(const glm::vec2 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail operator-" data-lookup="operator-" data-item-type="method">
+  	
+	<h1><a name="show_operator-" class="nohover">operator-(...)</a></h1>
+	<h2>ofRectangle ofRectangle::operator-(const glm::vec3 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Returns a new <a href="../ofRectangle" class="docs_class">ofRectangle</a> where the x and y-positions of the
+rectangle are offset by the (x, y) coordinates of the glm::vec3.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The point to translate.</p>
+<p><strong>Returns</strong>: The translated ofRectangle.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail operator==" data-lookup="operator==" data-item-type="method">
+  	
+	<h1><a name="show_operator==" class="nohover">operator==(...)</a></h1>
+	<h2>bool ofRectangle::operator==(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>If both ofRectangles have the same x, y, width, and height,
+they are considered equal.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to compare.</p>
+<p><strong>Returns</strong>: True if the rectangles are equal.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scale" data-lookup="scale" data-item-type="method">
+  	
+	<h1><a name="show_scale" class="nohover">scale(...)</a></h1>
+	<h2>void ofRectangle::scale(const glm::vec2 &amp;s)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales the width and height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by multiplying the current width and
+height with the (x,y) coordinates of the passed-in ofPoint.</p>
+<p>This is equivalent to calling:</p>
+<pre><code class="cpp">
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0, 0, 100, 100);
+
+<a href="../ofPoint" class="docs_class">ofPoint</a> myScaler(2, 2);
+
+myRect.scaleWidth(myScaler.x);
+myRect.scaleHeight(myScaler.y);
+
+</code></pre>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scale" data-lookup="scale" data-item-type="method">
+  	
+	<h1><a name="show_scale" class="nohover">scale(...)</a></h1>
+	<h2>void ofRectangle::scale(const glm::vec3 &amp;s)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales the width and height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by multiplying the current width and
+height with the (x,y) coordinates of the passed-in ofPoint.</p>
+<p>This is equivalent to calling:</p>
+<pre><code class="cpp">
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0, 0, 100, 100);
+
+<a href="../ofPoint" class="docs_class">ofPoint</a> myScaler(2, 2);
+
+myRect.scaleWidth(myScaler.x);
+myRect.scaleHeight(myScaler.y);
+
+</code></pre>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the rectangle.</p>
+<p>Scaling will scale the width and the height, but will not change the
+position.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>s The scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scale" data-lookup="scale" data-item-type="method">
+  	
+	<h1><a name="show_scale" class="nohover">scale(...)</a></h1>
+	<h2>void ofRectangle::scale(float s)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Uniformly scales the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by multiplying both the current width and current height with the passed-in float.</p>
+<p>This is equivalent to calling:</p>
+<pre><code class="cpp">
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0, 0, 100, 100);
+
+float s = 2;
+
+myRect.scaleWidth(s);
+myRect.scaleHeight(s);
+
+</code></pre>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the rectangle.</p>
+<p>Scaling will scale the width and the height, but will not change the
+position.</p>
+<p><strong>Parameters:</strong></p>
+<p>s The scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scale" data-lookup="scale" data-item-type="method">
+  	
+	<h1><a name="show_scale" class="nohover">scale(...)</a></h1>
+	<h2>void ofRectangle::scale(float sX, float sY)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales the width and height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by multiplying the current width and height with the passed-in floats.</p>
+<p>This is equivalent to calling:</p>
+<pre><code class="cpp">
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0, 0, 100, 100);
+
+float sX = 2;
+float sY = 2;
+
+myRect.scaleWidth(sX);
+myRect.scaleHeight(sY);
+
+</code></pre>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the rectangle.</p>
+<p>Scaling will scale the width and the height, but will not change the
+position.</p>
+<p><strong>Parameters:</strong></p>
+<p>sX The width-scaling factor.</p>
+<p>sY The height-scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleFromCenter" data-lookup="scaleFromCenter" data-item-type="method">
+  	
+	<h1><a name="show_scaleFromCenter" class="nohover">scaleFromCenter(...)</a></h1>
+	<h2>void ofRectangle::scaleFromCenter(const glm::vec2 &amp;s)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales both the width and height the <a href="../ofRectangle" class="docs_class">ofRectangle</a> from its center point.
+The center point of the rectangle will remain fixed and the width, height, x, and y will be adjusted.</p>
+<p>This is equivalent to calling:</p>
+<pre><code class="cpp">
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0, 0, 100, 100);
+
+<a href="../ofPoint" class="docs_class">ofPoint</a> myScaler(2, 2);
+
+myRect.scaleFromCenter(myScaler.x, myScaler.y);
+
+</code></pre>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleFromCenter" data-lookup="scaleFromCenter" data-item-type="method">
+  	
+	<h1><a name="show_scaleFromCenter" class="nohover">scaleFromCenter(...)</a></h1>
+	<h2>void ofRectangle::scaleFromCenter(const glm::vec3 &amp;s)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales both the width and height the <a href="../ofRectangle" class="docs_class">ofRectangle</a> from its center point.
+The center point of the rectangle will remain fixed and the width, height, x, and y will be adjusted.</p>
+<p>This is equivalent to calling:</p>
+<pre><code class="cpp">
+<a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0, 0, 100, 100);
+
+<a href="../ofPoint" class="docs_class">ofPoint</a> myScaler(2, 2);
+
+myRect.scaleFromCenter(myScaler.x, myScaler.y);
+
+</code></pre>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scales both the width and height the <a href="../ofRectangle" class="docs_class">ofRectangle</a> from its center.</p>
+<p>The center point of the rectangle will remain fixed and the width,
+height, x, and y will be adjusted.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>s The scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleFromCenter" data-lookup="scaleFromCenter" data-item-type="method">
+  	
+	<h1><a name="show_scaleFromCenter" class="nohover">scaleFromCenter(...)</a></h1>
+	<h2>void ofRectangle::scaleFromCenter(float s)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Uniformly scales the <a href="../ofRectangle" class="docs_class">ofRectangle</a> from its center point.
+The center point of the rectangle will remain fixed and the width, height, x, and y will be adjusted.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scales both the width and height the <a href="../ofRectangle" class="docs_class">ofRectangle</a> from its center.</p>
+<p>The center point of the rectangle will remain fixed and the width,
+height, x, and y will be adjusted.</p>
+<p><strong>Parameters:</strong></p>
+<p>s The scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleFromCenter" data-lookup="scaleFromCenter" data-item-type="method">
+  	
+	<h1><a name="show_scaleFromCenter" class="nohover">scaleFromCenter(...)</a></h1>
+	<h2>void ofRectangle::scaleFromCenter(float sX, float sY)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales both the width and height the <a href="../ofRectangle" class="docs_class">ofRectangle</a> from its center point.
+The center point of the rectangle will remain fixed and the width, height, x, and y will be adjusted.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scales both the width and height the <a href="../ofRectangle" class="docs_class">ofRectangle</a> from its center.</p>
+<p>The center point of the rectangle will remain fixed and the width,
+height, x, and y will be adjusted.</p>
+<p><strong>Parameters:</strong></p>
+<p>sX the width-scaling factor.</p>
+<p>sY the height-scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleHeight" data-lookup="scaleHeight" data-item-type="method">
+  	
+	<h1><a name="show_scaleHeight" class="nohover">scaleHeight(...)</a></h1>
+	<h2>void ofRectangle::scaleHeight(float sY)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales the height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by multiplying the current height with the passed-in float.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the height of the rectangle.</p>
+<p>This will scale the height but will not change the position and width.</p>
+<p><strong>Parameters:</strong></p>
+<p>sY The height-scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleTo" data-lookup="scaleTo" data-item-type="method">
+  	
+	<h1><a name="show_scaleTo" class="nohover">scaleTo(...)</a></h1>
+	<h2>void ofRectangle::scaleTo(const ofRectangle &amp;targetRect, ofAspectRatioMode subjectAspectRatioMode, ofAlignHorz modelHorzAnchor, ofAlignVert modelVertAnchor, ofAlignHorz subjectHorzAnchor, ofAlignVert subjectVertAnchor)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Adjusts the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to match the passed-in ofRectangle.  It will use the ofAspectRatioMode to scale the ofRectangle, and will use the use the alignment anchor parameters to position the rectangle.</p>
+<p>Assuming the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as the Subject and the passed-in <a href="../ofRectangle" class="docs_class">ofRectangle</a> as the Target:</p>
+<p><strong>ofAspectRatioMode Options:</strong></p>
+<p><strong>OF_ASPECT_RATIO_IGNORE</strong>            : Sets the Subject rectangle's width and height to match those of the Target.
+<strong>OF_ASPECT_RATIO_KEEP</strong>              : Resizes the Subject rectangle to completely fit within the Target rectangle.
+<strong>OF_ASPECT_RATIO_KEEP_BY_EXPANDING</strong> : Resizes the Subject rectangle to completely enclose the Target rectangle.</p>
+<p><strong>ofAlignHorz Options:</strong></p>
+<p><strong>OF_ALIGN_HORZ_IGNORE</strong>              : Does not perform any horizontal alignment.
+<strong>OF_ALIGN_HORZ_LEFT</strong>                : Uses the left edge of the rectangle to horizontally anchor the alignment.
+<strong>OF_ALIGN_HORZ_RIGHT</strong>               : Uses the right edge of the rectangle to horizontally anchor the alignment.
+<strong>OF_ALIGN_HORZ_CENTER</strong>              : Uses the center of the rectangle to horizontally anchor the alignment.</p>
+<p><strong>ofAlignVert Options:</strong></p>
+<p><strong>OF_ALIGN_VERT_IGNORE</strong>              : Does not perform any vertical alignment.
+<strong>OF_ALIGN_VERT_TOP</strong>                 : Uses the upper edge of the rectangle to vertically anchor the alignment.
+<strong>OF_ALIGN_VERT_BOTTOM</strong>              : Uses the bottom edge of the rectangle to vertically anchor the alignment.
+<strong>OF_ALIGN_VERT_CENTER</strong>              : Uses the center of the rectangle to vertically anchor the alignment.</p>
+<p>For a working example of how to use ofAspectRatioMode, ofAlignVert, and ofAlignHorz, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the rectangle using a target <a href="../ofRectangle" class="docs_class">ofRectangle</a> and parameters.</p>
+<p>Adjusts the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to match the passed-in ofRectangle. It will
+use the ofAspectRatioMode to scale the ofRectangle, and will use the
+use the alignment anchor parameters to position the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The Target Rectangle to scale to.</p>
+<p>subjectAspectRatioMode Aspect ratio scaling mode.</p>
+<p>modelHorzAnchor The target horizontal alignment method.</p>
+<p>modelVertAnchor The target vertical alignment method.</p>
+<p>subjectHorzAnchor The subject horizontal alignment method.</p>
+<p>subjectVertAnchor The subject vertical alignment method.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleTo" data-lookup="scaleTo" data-item-type="method">
+  	
+	<h1><a name="show_scaleTo" class="nohover">scaleTo(...)</a></h1>
+	<h2>void ofRectangle::scaleTo(const ofRectangle &amp;targetRect, ofAspectRatioMode subjectAspectRatioMode, ofAlignHorz sharedHorzAnchor=OF_ALIGN_HORZ_CENTER, ofAlignVert sharedVertAnchor=OF_ALIGN_VERT_CENTER)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Adjusts the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to match the passed-in ofRectangle. It will use the ofAspectRatioMode to scale the ofRectangle, and will use the alignment anchor parameters to position the rectangle.</p>
+<p>This is a convenient method when both the target and subject rectangles are using the same alignment anchors. For a more complete explanation, see </p>
+<pre><code class="cpp">
+void scaleTo(const ofRectangle&amp; targetRect, 
+             ofAspectRatioMode subjectAspectRatioMode, 
+             ofAlignHorz modelHorzAnchor, 
+             ofAlignVert modelVertAnchor, 
+             ofAlignHorz subjectHorzAnchor, 
+             ofAlignVert subjectVertAnchor);
+
+</code></pre>
+
+<p>For a working example of how to use ofAspectRatioMode, ofAlignVert, and ofAlignHorz, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the rectangle using a target <a href="../ofRectangle" class="docs_class">ofRectangle</a> and parameters.</p>
+<p>Scales the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to match the target ofRectangle. It will use the
+ofAspectRatioMode to scale the <a href="../ofRectangle" class="docs_class">ofRectangle</a> and will use the
+alignment anchor parameters to position the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The Target Rectangle to scale to.</p>
+<p>subjectAspectRatioMode Aspect ratio scaling mode.</p>
+<p>sharedHorzAnchor The horizontal alignment method.</p>
+<p>sharedVertAnchor The vertical alignment method.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleTo" data-lookup="scaleTo" data-item-type="method">
+  	
+	<h1><a name="show_scaleTo" class="nohover">scaleTo(...)</a></h1>
+	<h2>void ofRectangle::scaleTo(const ofRectangle &amp;targetRect, ofScaleMode scaleMode=OF_SCALEMODE_FIT)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Adjusts the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to match the passed-in <a href="../ofRectangle" class="docs_class">ofRectangle</a> using the passed-in ofScaleMode.</p>
+<p>Assuming the <a href="../ofRectangle" class="docs_class">ofRectangle</a> as the Subject and the passed-in <a href="../ofRectangle" class="docs_class">ofRectangle</a> as the Target:</p>
+<p><strong>OF_SCALEMODE_FIT</strong>:
+This centers the Subject rectangle within the Target rectangle, and resizes the Subject rectangle to completely fit within the Target Rectangle.</p>
+<ul>
+<li>It fits the Subject rectangle inside the target rectangle.</li>
+<li>It preserves Subject's aspect ratio.</li>
+<li>The Subject's final area &lt;= the Target's area.</li>
+<li>The Subject's center == the Target's center.</li>
+</ul>
+<p><strong>OF_SCALEMODE_FILL</strong>:
+This centers the Subject rectangle within the Target rectangle, and resizes the Subject rectangle to completely encompass the Target Rectangle.</p>
+<ul>
+<li>It fills the Target rectangle with the Subject rectangle.</li>
+<li>It preserves the Subject's aspect ratio.</li>
+<li>The Subject's Area &gt;= the Target's area.</li>
+<li>The Subject's center == the Target's center.</li>
+</ul>
+<p><strong>OF_SCALEMODE_CENTER</strong>:
+This centers the Subject rectangle within the Target rectangle, and does not modify the Subject's scale.</p>
+<ul>
+<li>It preserves the Subject's aspect ratio.</li>
+<li>The Subject's area is unchanged.</li>
+<li>The Subject's center == Target's center.</li>
+</ul>
+<p><strong>OF_SCALEMODE_STRETCH_TO_FILL</strong>:
+This simply modifies the Subject rectangle to match the Target rectangle's dimensions.</p>
+<ul>
+<li>It can change the Subject's aspect ratio.</li>
+<li>The Subject's area == the Target's area.</li>
+<li>The Subject's center == the Target's center.</li>
+</ul>
+<p>For a working example of the various ofScaleModes, see the <em>graphics/rectangleAlignmentAndScaling/</em> example within the examples directory.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the rectanle using a target <a href="../ofRectangle" class="docs_class">ofRectangle</a> and ofScaleMode.</p>
+<p>Adjusts the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to match the provided <a href="../ofRectangle" class="docs_class">ofRectangle</a> using the
+provided ofScaleMode.</p>
+<p><strong>Parameters:</strong></p>
+<p>targetRect The Target Rectangle to scale to.</p>
+<p>scaleMode The scale mode to use when scaling.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail scaleWidth" data-lookup="scaleWidth" data-item-type="method">
+  	
+	<h1><a name="show_scaleWidth" class="nohover">scaleWidth(...)</a></h1>
+	<h2>void ofRectangle::scaleWidth(float sX)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Scales the width of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by multiplying the current width with the passed-in float.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Scale the width of the rectangle.</p>
+<p>This will scale the width but will not change the position or height.</p>
+<p><strong>Parameters:</strong></p>
+<p>sX The width-scaling factor.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail set" data-lookup="set" data-item-type="method">
+  	
+	<h1><a name="show_set" class="nohover">set(...)</a></h1>
+	<h2>void ofRectangle::set(const glm::vec2 &amp;p, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the (x,y) coordinates, width, and height of the ofRectangle.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail set" data-lookup="set" data-item-type="method">
+  	
+	<h1><a name="show_set" class="nohover">set(...)</a></h1>
+	<h2>void ofRectangle::set(const glm::vec2 &amp;p0, const glm::vec2 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the x position, y position, width, and height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to enclose the line segment defined by the passed ofPoints.</p>
+<p>The rectangle will always be in standardized form, regardless of the order of the ofPoints passed in.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail set" data-lookup="set" data-item-type="method">
+  	
+	<h1><a name="show_set" class="nohover">set(...)</a></h1>
+	<h2>void ofRectangle::set(const glm::vec3 &amp;p, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the (x,y) coordinates, width, and height of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the position and size of the rectangle.</p>
+<p>To produce consistent results, users are encouraged to initialize
+rectangles in the standardized form with width &gt;=0 and height &gt;= 0.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The new position.</p>
+<p>w The new width.</p>
+<p>h The new height.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail set" data-lookup="set" data-item-type="method">
+  	
+	<h1><a name="show_set" class="nohover">set(...)</a></h1>
+	<h2>void ofRectangle::set(const glm::vec3 &amp;p0, const glm::vec3 &amp;p1)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the x position, y position, width, and height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to enclose the line segment defined by the passed ofPoints.</p>
+<p>The rectangle will always be in standardized form, regardless of the order of the ofPoints passed in.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the position and size of the rectangle using corners.</p>
+<p><strong>Warning</strong>: The z-components of the passed glm::vec3s are ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p0 The <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> representing the upper left hand corner.</p>
+<p>p1 The <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> representing the lower right hand corner.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail set" data-lookup="set" data-item-type="method">
+  	
+	<h1><a name="show_set" class="nohover">set(...)</a></h1>
+	<h2>void ofRectangle::set(const ofRectangle &amp;rect)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the x position, y position, width, and height of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> to match those of the passed ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the position and size by copying them from anohter rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>rect The rectangle to copy.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail set" data-lookup="set" data-item-type="method">
+  	
+	<h1><a name="show_set" class="nohover">set(...)</a></h1>
+	<h2>void ofRectangle::set(float px, float py, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the x position, y position, width, and height of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the position and size of the rectangle.</p>
+<p>To produce consistent results, users are encouraged to initialize
+rectangles in the standardized form with width &gt;=0 and height &gt;= 0.</p>
+<p><strong>Parameters:</strong></p>
+<p>px The new x-position.</p>
+<p>py The new y-position.</p>
+<p>w The new width.</p>
+<p>h The new height.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setFromCenter" data-lookup="setFromCenter" data-item-type="method">
+  	
+	<h1><a name="show_setFromCenter" class="nohover">setFromCenter(...)</a></h1>
+	<h2>void ofRectangle::setFromCenter(const glm::vec2 &amp;p, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the position, width, and height of the ofRectangle.
+The (x,y) coordinates passed into the function determine the center point of the ofRectangle.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setFromCenter" data-lookup="setFromCenter" data-item-type="method">
+  	
+	<h1><a name="show_setFromCenter" class="nohover">setFromCenter(...)</a></h1>
+	<h2>void ofRectangle::setFromCenter(const glm::vec3 &amp;p, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the position, width, and height of the ofRectangle.
+The (x,y) coordinates passed into the function determine the center point of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set position and size of the rectangle from the center.</p>
+<p>The center of the rectangle is defined and the width and height grow
+out around the center.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The position of the rectangle's center as an glm::vec3.</p>
+<p>w The width of the rectangle.</p>
+<p>h The height of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setFromCenter" data-lookup="setFromCenter" data-item-type="method">
+  	
+	<h1><a name="show_setFromCenter" class="nohover">setFromCenter(...)</a></h1>
+	<h2>void ofRectangle::setFromCenter(float px, float py, float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the position, width, and height of the ofRectangle.
+The x and y position passed into the function determine the center point of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set position and size of the rectangle from the center.</p>
+<p>The center of the rectangle is defined and the width and height grow
+out around the center.</p>
+<p><strong>Parameters:</strong></p>
+<p>px The x-position of the rectangle's center.</p>
+<p>py The y-position of the rectangle's center.</p>
+<p>w The width of the rectangle.</p>
+<p>h The height of the rectangle.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setHeight" data-lookup="setHeight" data-item-type="method">
+  	
+	<h1><a name="show_setHeight" class="nohover">setHeight(...)</a></h1>
+	<h2>void ofRectangle::setHeight(float h)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the height of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the height of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>h The new height.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setPosition" data-lookup="setPosition" data-item-type="method">
+  	
+	<h1><a name="show_setPosition" class="nohover">setPosition(...)</a></h1>
+	<h2>void ofRectangle::setPosition(const glm::vec3 &amp;p)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the (x,y) position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by passing in x and y as an ofPoint.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the position of the rectangle.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>p The position as an glm::vec3.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setPosition" data-lookup="setPosition" data-item-type="method">
+  	
+	<h1><a name="show_setPosition" class="nohover">setPosition(...)</a></h1>
+	<h2>void ofRectangle::setPosition(float px, float py)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the (x,y) position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> by passing in x and y as floats.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the position of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>px The new x-position.</p>
+<p>py The new y-position.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setSize" data-lookup="setSize" data-item-type="method">
+  	
+	<h1><a name="show_setSize" class="nohover">setSize(...)</a></h1>
+	<h2>void ofRectangle::setSize(float w, float h)</h2>
+	<div class="documentation_detail_description">
+		
+        
+
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the size of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>w The new width.</p>
+<p>h The new height.</p>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setWidth" data-lookup="setWidth" data-item-type="method">
+  	
+	<h1><a name="show_setWidth" class="nohover">setWidth(...)</a></h1>
+	<h2>void ofRectangle::setWidth(float w)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the width of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the width of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>w The new width.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setX" data-lookup="setX" data-item-type="method">
+  	
+	<h1><a name="show_setX" class="nohover">setX(...)</a></h1>
+	<h2>void ofRectangle::setX(float px)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the x position of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the x-position of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>px The new x-position.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail setY" data-lookup="setY" data-item-type="method">
+  	
+	<h1><a name="show_setY" class="nohover">setY(...)</a></h1>
+	<h2>void ofRectangle::setY(float py)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Sets the y position of the ofRectangle.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Set the y-position of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>py The new y-position.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail standardize" data-lookup="standardize" data-item-type="method">
+  	
+	<h1><a name="show_standardize" class="nohover">standardize()</a></h1>
+	<h2>void ofRectangle::standardize()</h2>
+	<div class="documentation_detail_description">
+		
+        <p><a href="../ofRectangle" class="docs_class">ofRectangle</a> is a simple container for describing the position
+and size of 2D rectangles. Like many rectangle data structures
+found in other frameworks and graphics libraries, member
+width and height variables can take negative values.
+Additionally, x / y position and width / height are publicly
+accessible, resulting in great programming freedom.
+Consequently, two visually identical rectangles can be
+represented in the following ways:</p>
+<pre><code class="cpp">    <a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(0,0,100,100);
+
+    // OR
+
+    <a href="../ofRectangle" class="docs_class">ofRectangle</a> myRect(100,100,-100,-100);
+</code></pre>
+
+<p>While both representations will yield the same visual
+results in all openFrameworks renderers, the results of
+some method operations that modify x / y / width / height
+(such as scaling) produce mathematically correct, but
+visually different results for each of the above
+representations.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Standardize the rectangle</p>
+<p>"Standardized" rectangles are rectangles whose width and height are positive: width &gt;= 0 and height</p>
+<blockquote>
+<p>= 0. This method can be used to ensure that the rectangle is
+"standardized". If the rectangle is non-standard, it will modify the x /
+width and y / height values into their respective standardized versions.</p>
+</blockquote>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail translate" data-lookup="translate" data-item-type="method">
+  	
+	<h1><a name="show_translate" class="nohover">translate(...)</a></h1>
+	<h2>void ofRectangle::translate(const glm::vec2 &amp;dp)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Offsets the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> in the both the x and y dimensions by passing in an ofPoint.</p>
+
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail translate" data-lookup="translate" data-item-type="method">
+  	
+	<h1><a name="show_translate" class="nohover">translate(...)</a></h1>
+	<h2>void ofRectangle::translate(const glm::vec3 &amp;dp)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Offsets the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> in the both the x and y dimensions by passing in an ofPoint.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Translate the rectangle's position by an x and y amount.</p>
+<p><strong>Warning</strong>: The z-component of the passed <a href="../../glm/glm::vec3" class="docs_class">glm::vec3</a> is ignored.</p>
+<p><strong>Parameters:</strong></p>
+<p>dp The amount to translate as an glm::vec3.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail translate" data-lookup="translate" data-item-type="method">
+  	
+	<h1><a name="show_translate" class="nohover">translate(...)</a></h1>
+	<h2>void ofRectangle::translate(float dx, float dy)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Offsets the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> in the both the x and y dimensions by passing in two floats.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Translate the rectangle's position by an x and y amount.</p>
+<p><strong>Parameters:</strong></p>
+<p>dx The amount to translate in the x direction.</p>
+<p>dy The amount to translate in the y direction.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail translateX" data-lookup="translateX" data-item-type="method">
+  	
+	<h1><a name="show_translateX" class="nohover">translateX(...)</a></h1>
+	<h2>void ofRectangle::translateX(float dx)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Offsets the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> in the x dimension by a given amount.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Translate the x-position of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>dx The amount to translate on the x-axis.</p>
+            </div>
+
+	</div>
+</div>
+
+                        
+<div class="documentation_detail translateY" data-lookup="translateY" data-item-type="method">
+  	
+	<h1><a name="show_translateY" class="nohover">translateY(...)</a></h1>
+	<h2>void ofRectangle::translateY(float dy)</h2>
+	<div class="documentation_detail_description">
+		
+        <p>Offsets the position of the <a href="../ofRectangle" class="docs_class">ofRectangle</a> in the y dimension by a given amount.</p>
+
+            <div class="inlined_docs">
+                <h2><strong><em>Documentation from code comments</em></strong></h2>
+<br><p>Translate the y-position of the rectangle.</p>
+<p><strong>Parameters:</strong></p>
+<p>dy The amount to translate on the y-axis.</p>
+            </div>
+
+	</div>
+</div>
+
+
+            <!-- vars detail -->
+              <!--h2><a name="variables"></a>ofRectangle variables</h2!-->
+                        
+<div class="documentation_detail  height" data-lookup="height" data-item-type="var">
+	<h1>float <a name="show_height" class="nohover">height</a>
+</h1>
+	<h2>float ofRectangle::height</h2>
+	<div class="documentation_detail_description">
+    
+The height variable contains the height of the ofRectangle.
+
+
+	</div>
+	<!--div class="documentation_detail_wide_col_nav"><a href="#top">&uarr;</a></div-->
+</div>
+
+                        
+<div class="documentation_detail  position" data-lookup="position" data-item-type="var">
+	<h1>ofPoint <a name="show_position" class="nohover">position</a>
+</h1>
+	<h2>ofPoint ofRectangle::position</h2>
+	<div class="documentation_detail_description">
+    
+
+	</div>
+	<!--div class="documentation_detail_wide_col_nav"><a href="#top">&uarr;</a></div-->
+</div>
+
+                        
+<div class="documentation_detail  width" data-lookup="width" data-item-type="var">
+	<h1>float <a name="show_width" class="nohover">width</a>
+</h1>
+	<h2>float ofRectangle::width</h2>
+	<div class="documentation_detail_description">
+    
+
+	</div>
+	<!--div class="documentation_detail_wide_col_nav"><a href="#top">&uarr;</a></div-->
+</div>
+
+                        
+<div class="documentation_detail  x" data-lookup="x" data-item-type="var">
+	<h1>float <a name="show_x" class="nohover">x</a>
+</h1>
+	<h2>float ofRectangle::x</h2>
+	<div class="documentation_detail_description">
+    
+
+	</div>
+	<!--div class="documentation_detail_wide_col_nav"><a href="#top">&uarr;</a></div-->
+</div>
+
+                        
+<div class="documentation_detail  y" data-lookup="y" data-item-type="var">
+	<h1>float <a name="show_y" class="nohover">y</a>
+</h1>
+	<h2>float ofRectangle::y</h2>
+	<div class="documentation_detail_description">
+    
+The y variable contains the y position of the ofRectangle.
+
+
+	</div>
+	<!--div class="documentation_detail_wide_col_nav"><a href="#top">&uarr;</a></div-->
+</div>
+
+
+            <!-- functions detail -->
+            <hr>
+<div id="comments_header">
+            <p>If you have any doubt about the usage of this module you can ask in the <a href="http://forum.openframeworks.cc">forum</a>.</p>
+            <p>If you want to contribute better documentation or start documenting this section you can do so
+                    <a href="https://github.com/openframeworks/ofSite/edit/master/documentation/types/ofRectangle.markdown">here</a>
+            </p>
+            <p>If you find anything wrong with this docs you can report any error by opening an
+                    <a href="https://github.com/openframeworks/ofSite/issues/new?title=Documentation%20problem%20in%20ofRectangle">issue</a></p>
+            </div>
+        </div>
+<!-- End Submenu right -->
+      </div>
+<!-- End page wide -->
+      </div>
+<!-- End body wrap -->
+
+
+          <div id="footer">
+             <p id="credits">
+
+Last updated Monday, 11 October 2021 18:07:43 UTC    -    <a href="https://github.com/openframeworks/ofSite/commit/be78c47ab155f38e2da8c6a6b6636e7486ff17aa">be78c47ab155f38e2da8c6a6b6636e7486ff17aa</a>
+
+<br><a href="http://www.rackspace.com" target="_blank" class="rackspace">
+Hosting for openFrameworks is generously provided by Rackspace
+<br><img src="../../../assets/images/rackspace.png"></a>
+
+</p>
+
+
+
+<!--tracking -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9614675-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</div>
+    </div>
+    
+
+    <!-- The Modal -->
+    <div id="donations_popup" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close-btn">×</span>
+                <h2>donate</h2>
+            </div>
+            <!-- Modal content -->
+            <div class="modal-body">
+                <p>openFrameworks is developed and maintained by several voluntary contributors.</p>
+                <p>Donations help support the development of openFrameworks, improve the documentation and pay for third party services needed for the project.</p>
+                <p>If you are using openFrameworks commercially or would simply like to support openFrameworks development, please consider donating to the project.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="../../../donations">donate now</a>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

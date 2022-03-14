@@ -14,20 +14,9 @@ class Heap {
     public Heap(List<Integer> source) {
         this(source, false);
         System.out.println();
-
-        // this.array = new ArrayList<Integer>(source.size());
-        // for (int i = 0; i < source.size(); i ++){
-        //     counter++;
-        //     this.insert(source.get(i));
-        // }
-        // heap_size = array.size();
     }
     public Heap(List<Integer> source, boolean incremental) {
-        System.out.println();
-
         this.array = new ArrayList<Integer>(source.size());
-        // this.heap_size = source.size();
-        // System.out.println("size in cons = " + source.size());
         if(incremental){
             heap_size = 0;
             for (int i = 0; i < source.size(); i ++){
@@ -38,15 +27,12 @@ class Heap {
         }else{
             heap_size = 0;
             this.array = new ArrayList<Integer>(source.size());
-
             for (int i = 0; i < source.size(); i ++){
                 counter++;
                 System.out.println("inserting = " + source.get(i));
                 array.add(source.get(i));
-                // array.add(source.get(i));
             }
-            buildMaxHeap();
-
+           buildMaxHeap();
             heap_size = array.size();
             for(int i = 0; i < array.size(); i ++){
                 System.out.print(array.get(i) + ", ");
@@ -69,21 +55,19 @@ class Heap {
         int l = left(i);
         int r = right(i);
         int largest = i;
-        counter++;
-        if(l < heap_size && array.get(l) > array.get(largest)){
 
+        if(l < heap_size && array.get(l) > array.get(largest)){
             largest = l;
         }
         if(r < heap_size && array.get(r) > array.get(largest)){
             largest = r;
         }
-
         if(largest != i){
             int temp = array.get(i);
             array.set(i, array.get(largest));
             array.set(largest, temp);
-
             maxHeapify(largest);
+            counter+=2;
         }
     }
     public void buildMaxHeap() {
@@ -123,7 +107,6 @@ class Heap {
         heap_size = heap_size - 1;
         maxHeapify(0);
         return max;
-
     }
 
     public ArrayList<Integer> sort(){
@@ -146,4 +129,26 @@ class Heap {
         array.set(indexA, array.get(indexB));
         array.set(indexB, temp);
     }
+
+    public int getCounter(){
+        return counter;
+    }
+
+
+//    public static void main(String[] args) {
+//        Heap h = new Heap(86241);
+//
+//        List<Integer> list = new ArrayList<>();
+//
+//        for(int i = 0; i < 86241; i++){
+//            list.add(i);
+//           //h.insert(i);
+//        }
+//
+//        Heap arrayHeap = new Heap(list);
+//        arrayHeap.buildMaxHeap();
+//
+//        //System.out.println("Q3 Conuter: "+h.getCounter());
+//        System.out.println("Q4 Conuter: "+arrayHeap.getCounter());
+//    }
 }
